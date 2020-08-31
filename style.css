@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('images/background.png');
+}
+
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+
+
+}
+
+.logo{
+    font-weight: 600;
+    color: black;
+    font-size: 41px;
+}
+
+.firstletter{
+    font-weight: 600;
+    color: #4472CA; 
+    font-size: 50px;
+}
+
+li,a,button {
+    font-weight: 400;
+    font-size: 27;
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.nav_links{
+    list-style: none;
+}
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li button{
+    background: #4472CA;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 10px 9px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+    margin: 4px 0px;
+    cursor: pointer;
+   
+}
