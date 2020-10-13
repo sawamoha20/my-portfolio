@@ -2,6 +2,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Mohamed Souab</title>
@@ -9,25 +11,33 @@
 <body>
     <header>
         <div class="top-bar">   
-            <h1 class="logo"> <span class="firstletter">M</span>ohamed <span class="firstletter">S</span>ouab</h1>
+            <h1 class="logo"> <span class="firstletter">mo</span>souab</h1>
             <nav>
                 <ul class="nav_links">
-                    <li><a href="#Home">Home</a></li>
-                    <li><a href="#Blog">Blog</a></li>
-                    <li><a href="#Work">Work</a></li>
-                    <li><button class="contact">Contact</button></li>
+                    <li><a href="#Home">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a class="contact">contact</a></li>
                 </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
             </nav>
+            
         </div>
-        <div class="landing-text">
-            <h1 class="title"> <span class="firstletter title">H</span>i i'm mohamed</h1>
-            <h3 >I’m a Developer and Desginer</h3>
-            <h4 >UX, UI Desginer | Flutter mobile developer | Full Stack web developer</h4>
-            <button class="contact">Contact Me</button>
+        <div class="cta">
+            <img src="./images/profile.png" alt="Mohamed Soaub" class="profile">
+            <h1>Hi, I'm Mohamed</h1>
+            <h2>A web and flutter mobile developer</h2>
+            <div class="">
+                <a href="#"><i class=" fab fa-github fa-lg i1"></i></a>
+                <a href="#"><i class=" fab fa-instagram fa-lg i1"></i></a>
+                <a href="#"><i class=" fab fa-facebook-f fa-lg "></i></a>
+            </div>
         </div>
+        
     </header>
-    <section class="blog" id="blog">
-        <h2> <span class="firstletter">B</span>log</h2>
-    </section>
 </body>
 </html>
