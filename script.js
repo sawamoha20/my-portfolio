@@ -1,6 +1,7 @@
-const toggleButton = document.getElementsByClassName('burger')[0]
-const navbarLinks = document.getElementsByClassName('nav_links')[0]
+let mainNav = document.getElementById('js-menu');
+let navBarToggle = document.getElementById('js-navbar-toggle');
 
-toggleButton.addEventListener('click', () => {
-  navbarLinks.classList.toggle('active')
-})
+navBarToggle.addEventListener('click', function () {
+    
+    mainNav.classList.toggle('active');
+});
